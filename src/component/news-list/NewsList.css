@@ -1,0 +1,37 @@
+.main-buttons-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.main-buttons-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-buttons-wrapper button{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Lora", serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #495057;
+}
+#main-news-list-wrapper{
+    color: #495057;
+    padding: 100px 70px 30px 70px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lora", serif;
+    gap:30px
+
+}
+#main-news-list-wrapper h1{
+    font-size: 36px;
+
+}
+#every-button{
+    color: #D4A373;
+}
+.theme-lists{
+    display: flex;
+    gap: 20px;
+}

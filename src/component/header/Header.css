@@ -1,0 +1,130 @@
+#preview{
+    width: 1440px;
+    height: 600px;
+    background-image: url("../../images/Image.png");
+    background-size: 100% ;
+    display: flex;
+    color: white;
+    /* align-items: end; */
+    padding: 30px 70px 30px 70px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+    flex-direction: column;
+}
+.main-wrapper{
+    width: 1440px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.main-logo{
+    font-weight: 700;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 250px;
+    
+}
+.website-history{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: start;
+    font-size: 12px;
+    
+}
+.horizontal-line{
+    width: 40px;
+    height: 0px;
+    border: 1px solid white;
+    color: white;
+}
+h1{
+    margin: 0px;
+}
+a{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.438);
+    position: fixed;
+    width: 1440px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* box-sizing: border-box; */
+    padding: 30px 70px 30px 70px;
+}
+.main-links{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+}
+.main-web{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.815);
+}
+.main-web a{
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.selected-link{
+    color: white;
+    border-bottom: 2px solid #D4A373;
+}
+.main-web img{
+    width: 20px;
+    height: 20px;
+}
+.vertical-line{
+    border: 1px solid white;
+    height: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.search{
+    width:20px
+}
+.change-pictures{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding-top: 80px;
+
+}
+.date-slider{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.circle{
+    border-radius: 100%;
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    opacity: 0.5;
+}
+.circle-active{
+    opacity: 1;
+}
+.adventure-button p{
+    background-color: rgba(220, 220, 220, 0.192);
+    color: white;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    width:fit-content;
+    font-family: "League Spartan", sans-serif;
+    font-size: 14px;
+  }
