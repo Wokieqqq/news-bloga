@@ -1,0 +1,57 @@
+.theme-tag{
+    background-color: rgba(220, 220, 220, 0.192);
+    color: white;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: "League Spartan", sans-serif;
+    font-size: 14px;
+    position:absolute;
+    right: 20px;
+    top: 20px;
+    margin:0px;
+  }
+.blog-metro-card-list{
+    position: relative;
+    display: inline-block;
+}
+#blog-metro-wrapper{
+  display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 149px;
+}
+.metro-title{
+  color: #495057;
+  font-size: 36px;
+  font-family: "Lora", serif;
+}
+.blog-date1{
+  color: #E5E5E5;
+  font-size: 12px;
+  font-family: "Lora", serif;
+}
+.blog-title1{
+  font-size: 18px;
+  width: 270px;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.blogs-description1{
+  color: #E5E5E5;
+  font-size: 12px;
+  font-family: "Lora", serif;
+  width: 340px;
+  font-weight: 400;
+}
+.metro-info{
+  position:absolute;
+  right: 40px;
+  top: 160px;
+}
+.main-metro-blogs{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

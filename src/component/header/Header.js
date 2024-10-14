@@ -8,21 +8,34 @@ import pinterest from "../../icons/pinterest.svg"
 import twitter from "../../icons/twitter.svg"
 import behance from "../../icons/behance.svg"
 import search from "../../icons/search.svg"
-
-import circle from "../../icons/circle.svg"
+import { NavLink } from "react-router-dom"
 
 function Header(){
     return(
-        <div>
-            <div className="container">
-                <div className="main-wrapper">
+        <div className="container wide">
+            
                     <header>
                         <h1 className="main-logo">RUNO</h1>
                         <div className="main-links">
                             <nav className="main-web">
-                                <a className="selected-link">Home</a>
-                                <a>About</a>
-                                <a>Articles</a>
+                                <NavLink className={(navData) => navData.isActive ? "selected-link" : null} style={{
+                                    color: "rgba(255, 255, 255, 0.815)",
+                                    paddingBottom: "4px",
+                                    paddingTop: "4px",
+                                    textDecoration: "none"
+                                }} to="/">Home</NavLink>
+                                <NavLink className={(navData) => navData.isActive ? "selected-link" : null}style={{
+                                    color: "rgba(255, 255, 255, 0.815)",
+                                    paddingBottom: "4px",
+                                    paddingTop: "4px",
+                                    textDecoration: "none"
+                                }} to="/about-us">About</NavLink>
+                                <NavLink className={(navData) => navData.isActive ? "selected-link" : null}style={{
+                                    color: "rgba(255, 255, 255, 0.815)",
+                                    paddingBottom: "4px",
+                                    paddingTop: "4px",
+                                    textDecoration: "none"
+                                }} to="/create-article">Articles</NavLink>
                                 <a>Contact us</a>
                             </nav>
                             <div className="vertical-line"></div>
@@ -40,7 +53,7 @@ function Header(){
                     </header>
                     <section id="preview">
                         <div className="main-wrapper">
-                            <div className="adventure-button">
+                            <div className="adventure-button-header">
                                 <p>Adventure</p>
                             </div>
 
@@ -63,12 +76,9 @@ function Header(){
                             </div>
                             
                         </div>
-                        
                     </section>
                 </div>
-            </div>
             
-        </div>
         
     )
 }

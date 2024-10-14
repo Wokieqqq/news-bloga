@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "League Spartan", sans-serif, "Lora", serif;
+  font-family: -apple-system, BlinkMacSystemFont, "League Spartan", sans-serif, "Lora", serif, "Roboto";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,4 +11,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px 20px
+}
+.wide{
+  max-width: 1440px;
+}
+.medium{
+  max-width: 1300px;
 }

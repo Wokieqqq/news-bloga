@@ -17,14 +17,16 @@
 }
 #main-news-list-wrapper{
     color: #495057;
-    padding: 100px 70px 30px 70px;
+    /* padding: 100px 70px 30px 70px; */
     display: flex;
     flex-direction: column;
     font-family: "Lora", serif;
-    gap:30px
+    
+    gap:30px;
+    margin-bottom: 149px;
 
 }
-#main-news-list-wrapper h1{
+.title{
     font-size: 36px;
 
 }
@@ -34,4 +36,46 @@
 .theme-lists{
     display: flex;
     gap: 20px;
+}
+.main-blogs-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+
+  }
+.adventure-button2 p{
+    background-color: rgba(220, 220, 220, 0.192);
+    color: white;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    width:fit-content;
+    font-family: "League Spartan", sans-serif;
+    font-size: 14px;
+    position:absolute;
+    top:10px;
+    right:10px
+  }
+
+.blog{
+    display: inline-block;
+    position: relative;
+    
+}
+.blog-date{
+    color: #6C757D;
+    font-size: 12px;
+}
+.blog-title{
+    font-size: 18px;
+    width: 273px;
+    font-weight: 700;
+}
+.blogs-description{
+    color: #6C757D;
+    font-size: 12px;
+    width: 309px;
+    font-weight: 400;
 }

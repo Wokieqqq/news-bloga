@@ -1,0 +1,63 @@
+#post-wrapper{
+    background-image: url("../../images/Image2.png");
+    width: 1440px;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center
+    ;
+    align-items: center;
+    margin-bottom: 149px;
+}
+
+.adventure-button p{
+    background-color: rgba(220, 220, 220, 0.192);
+    color: white;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    width:fit-content;
+    font-family: "League Spartan", sans-serif;
+    font-size: 14px;
+    
+  }
+.adventure-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-info{
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.post-title{
+  font-size: 36px;
+  font-family: "Lora", serif;
+}
+.main-info p{
+  font-size: 12px;
+  color: #E5E5E5;
+  font-family: "Lora", serif;
+}
+.horizontal-line-post{
+  width: 40px;
+  height: 0px;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.poster-description{
+  margin-bottom: 24px;
+  line-height: 20px;
+}
+.post-date{
+  margin: 0px;
+}

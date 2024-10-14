@@ -1,0 +1,55 @@
+.create-title{
+    color: #495057;
+    font-size: 36px;
+    font-family: "Lora", serif;
+}
+#create-article-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.create-article h1{
+    color: #495057;
+    font-size: 16px;
+    font-family: "Lora", serif;
+}
+.create-article input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #495057;
+    background-color: rgba(179, 174, 174, 0.137);
+    padding-top: 20px;
+}
+.create-article{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.create-article button{
+    background-color: white;
+    color: #495057;
+    font-size: 14px;
+    font-family: "Lora", serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.tags-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
+.tags-main{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.atricle-content-info textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #495057;
+    background-color: rgba(179, 174, 174, 0.137);
+    padding-top: 20px;
+    resize: none;
+}

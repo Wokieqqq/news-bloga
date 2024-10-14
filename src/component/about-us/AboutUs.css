@@ -1,0 +1,41 @@
+.about-title{
+    color: #495057;
+    font-size: 36px;
+    font-family: "Lora", serif;
+  }
+  .about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+#about-us{
+    margin-bottom: 190px;
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+    width:1300px
+}
+.about-info{
+    line-height: 20px;
+    font-family: "Lora", serif;
+    width: 700px;
+    color: #495057;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+}
+.library {
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+}
+.main-about-info-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap:40px
+}
+.horizontal-line{
+    width: 100%;
+    border: 1px solid #495057;
+}
